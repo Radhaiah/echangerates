@@ -1,0 +1,32 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .heading-container {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(206, 107, 15);
+    background: linear-gradient(to right, #966f276b 0%, #bb5ece44 51%, #c0eb248c 100%);
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color:rgba(137, 241, 151, 0.849);  
+  }
+table,tr,td,th{
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: yellow;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, #d6d4d06b 0%, #92d3f844 51%, #9ae9ce88 100%);
+}
